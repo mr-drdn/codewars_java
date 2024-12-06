@@ -1,4 +1,4 @@
-package org.kata.kyu_8.papper_rock_scissors;
+package org.kata.kyu_8;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -27,7 +27,6 @@ public class RockPaperScissors {
     }
 
     public static void main(String[] args) {
-        // Просто вызываем функцию, чтобы увидеть вывод
         System.out.println(rps("paper", "scissors"));
 
         System.out.println(rps("rock", "scissors"));
