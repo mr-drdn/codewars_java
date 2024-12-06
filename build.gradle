@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    google()  // Для загрузки зависимостей от Google (например, Firebase)
+}
+
+dependencies {
+    implementation 'com.google.firebase:firebase-firestore:25.1.1' // Зависимость Firebase Firestore
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0' // JUnit для тестов
+}
+
+test {
+    useJUnitPlatform() // Использование платформы JUnit
+}
