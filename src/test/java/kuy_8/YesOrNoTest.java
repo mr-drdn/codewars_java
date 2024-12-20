@@ -1,3 +1,5 @@
+package kuy_8;
+
 import org.junit.jupiter.api.Test;
 import org.kata.kyu_8.YesOrNo;
 

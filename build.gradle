@@ -7,10 +7,13 @@ version = '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+    google() // Добавляем репозиторий Google
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0' // JUnit для тестов
+    implementation 'com.google.firebase:firebase-firestore:24.7.1' // Актуальная версия
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0'
+    testImplementation 'org.testng:testng:7.1.0'
 }
 
 test {
